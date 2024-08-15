@@ -29,7 +29,7 @@ The `HybridArrayList` library provides a Lua implementation of a data structure 
 
 ## Installation
 
-Simply copy and paste the `HybridArrayList` code into your Lua environment. No additional installation steps are required.
+Simply Download the HybridArrayList.lua file and save it in your Lua Environment, then import it in your file, no installation steps needed
 
 ## Example Usage
 
@@ -37,9 +37,10 @@ Simply copy and paste the `HybridArrayList` code into your Lua environment. No a
 local HybridArrayList = require('HybridArrayList').HybridArrayList
 
 -- Create a new HybridArrayList
-local list = HybridArrayList.new()
-
+local array = {1,2,3,4,5}
+List1:fromArray(array)
 -- Add elements to the list
+local list = HybridArrayList.new()
 list:append(1)
 list:append(2)
 list:prepend(0)
