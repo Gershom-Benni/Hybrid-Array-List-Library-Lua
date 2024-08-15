@@ -122,6 +122,6 @@ newList:printList()  -- Output: [10, 20, 30]
 ```
 ## License
 
-This library is provided under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This library is provided under the MIT License. See the [LICENSE](LICENSE.txt) file for more information.
 
 
