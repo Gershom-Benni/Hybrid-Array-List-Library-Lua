@@ -119,7 +119,7 @@ local newList = HybridArrayList.new()
 newList:fromArray({10, 20, 30})
 newList:printList()  -- Output: [10, 20, 30]
 
-lua```
+```
 ## License
 
 This library is provided under the MIT License. See the [LICENSE](LICENSE) file for more information.
