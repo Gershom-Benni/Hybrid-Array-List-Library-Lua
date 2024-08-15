@@ -118,3 +118,8 @@ print(joined)  -- Output: 3, 1, 4, 5
 local newList = HybridArrayList.new()
 newList:fromArray({10, 20, 30})
 newList:printList()  -- Output: [10, 20, 30]
+
+## License
+
+This library is provided under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
